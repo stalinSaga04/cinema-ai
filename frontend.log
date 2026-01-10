@@ -1,0 +1,13 @@
+
+> cinema-ai-frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.112:3000
+
+✓ Starting...
+✓ Ready in 23.5s
+○ Compiling / ...
+ GET / 200 in 18.2s (compile: 17.5s, render: 680ms)
+ GET / 200 in 1845ms (compile: 1266ms, render: 579ms)
