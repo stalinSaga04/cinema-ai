@@ -1,38 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --background: #050505;
+  --background: #080808;
   --foreground: #ffffff;
-  --neon-green: #00FF94;
-  --cyber-pink: #FF0055;
-  --panel-bg: rgba(26, 26, 26, 0.7);
+  --primary: #f0b429;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Inter', sans-serif;
   overflow-x: hidden;
-}
-
-@layer components {
-  .glass-panel {
-    @apply bg-[rgba(26,26,26,0.7)] backdrop-blur-xl border border-white/10 rounded-2xl;
-  }
-  
-  .neon-text {
-    text-shadow: 0 0 10px var(--neon-green), 0 0 20px var(--neon-green);
-  }
-  
-  .neon-border {
-    box-shadow: 0 0 15px rgba(0, 255, 148, 0.3);
-    @apply border border-[#00FF94]/30;
-  }
-  
-  .cyber-button {
-    @apply px-6 py-3 bg-[#00FF94] text-black font-bold rounded-full hover:scale-105 transition-all active:scale-95 shadow-[0_0_20px_rgba(0,255,148,0.5)];
-  }
 }
 
 /* Custom Scrollbar */
@@ -40,23 +17,12 @@ body {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #050505;
+  background: #080808;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1A1A1A;
+  background: #333333;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #00FF94;
-}
-
-/* Neural Animation Background */
-.neural-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: radial-gradient(circle at 50% 50%, #111 0%, #050505 100%);
+  background: #f0b429;
 }
